@@ -1,0 +1,11 @@
+A functionality sweep is run to find what issues or suggestions are find in an application and is divided in 4 parts:
+1 - Mapping
+ - the responsible will map the pages and functionalities in it, creating a diagram with the elements present;
+2 - Test case creation
+ - after mapping the app, the responsible will have data to create the necessary test cases, containing:
+    * test case id | action | page link | steps | expected outputs for each step;
+3 - Test case execution
+ - once the test cases have been created, they will be executed and registered. The table with this info should contain at least:
+    * test case id | link to the video | action | expected output | real output | status (pass, not pass, waiting execution, blocked);
+4 - Full report
+ - last but not least, 
